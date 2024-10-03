@@ -1,4 +1,6 @@
+#!/usr/bin/python3
 def pascal_triangle(n):
+    """A script to determine pascal's triangle for any number"""
     if n <= 0:
         return []
     
@@ -12,4 +14,3 @@ def pascal_triangle(n):
         
         triangle.append(row)
     return triangle
-            
